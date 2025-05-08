@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0ub7dos5s0jv"]
+
+[ext_resource type="PackedScene" uid="uid://dumocfbe8i5ms" path="res://scenes/fish_tank/fish_tank.tscn" id="1_hyk8p"]
+[ext_resource type="PackedScene" uid="uid://c6s1q3p0jmdx4" path="res://scenes/spawner/spwaner.tscn" id="2_iuonh"]
+
+[node name="Main" type="Node2D"]
+
+[node name="FishTank" parent="." instance=ExtResource("1_hyk8p")]
+
+[node name="Spwaner" parent="." instance=ExtResource("2_iuonh")]
